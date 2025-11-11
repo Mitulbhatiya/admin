@@ -1,5 +1,13 @@
 // export const base_url = "http://localhost:3006"
-export const base_url = "https://api.satdham.in"
+
+// Use proxy in production (Vercel) to handle CORS issues
+// The proxy is available at /api/* and will forward to https://api.satdham.in
+// In development, you can use direct API or run 'vercel dev' to use the proxy locally
+const isProduction = typeof window !== 'undefined' && 
+  (window.location.hostname === 'satsabha.satdham.in' || 
+   window.location.hostname.includes('vercel.app'))
+
+export const base_url = isProduction ? "/api" : "https://api.satdham.in"
 // Admin Login
 export const adminLogin = "/login/admin"
 // Userdata
