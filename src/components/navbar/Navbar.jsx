@@ -16,15 +16,20 @@ const Navbar = () => {
 
 
 
-    const Logout = () => {
-        const header = {
-            'Content-Type': 'application/json',
-            "Authorization": "Bearer " + Cookies.get('tkn'),
-            "isauth": Cookies.get('isAuth') || "",
-            "isr": Cookies.get('isr') || ""
-        }
+    const header = {
+        'Content-type': 'application/json',
+        'Access-Control-Allow-Origin': '*',
+        'Content-Type': 'multipart/form-data',
+        "Access-Control-Allow-Methods": "GET,PUT,POST,DELETE,PATCH,OPTIONS",
+        "Authorization": "Bearer " + Cookies.get('tkn'),
+        "isauth": Cookies.get('isAuth') || "",
+        "isr": Cookies.get('isr') || ""
+    }
 
-        axios.post(base_url + "/admin/logout", { data: "logout" }, { headers: header })
+
+    const Logout = () => {
+
+        axios.post(base_url + "/admin/logout", { data: "logout" }, header)
             .then((res) => {
                 if (res.status === 200) {
                     Cookies.remove('isr')

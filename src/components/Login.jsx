@@ -19,10 +19,12 @@ const Login = () => {
         // console.log(data);
         setLoader(true)
         const header = {
-            'Content-Type': 'application/json'
+            'Content-type': 'application/json',
+            'Access-Control-Allow-Origin': '*',
+            "Access-Control-Allow-Methods": "GET,PUT,POST,DELETE,PATCH,OPTIONS"
         }
         // console.log(header);
-        axios.post(base_url + adminLogin, data, { headers: header })
+        axios.post(base_url + adminLogin, data, header)
             .then((res) => {
                 // console.log(res);
                 if (res.status === 200) {
