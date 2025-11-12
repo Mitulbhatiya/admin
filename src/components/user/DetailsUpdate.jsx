@@ -146,7 +146,7 @@ const DetailsUpdate = () => {
                                     />
                                     : <img
                                         className='img-fluid'
-                                        src={`https://dzhov20ss4n5i.cloudfront.net/${adminReducer?.user?.userData?.profileurl}`}
+                                        src={`https://storage.googleapis.com/satdham-assets.firebasestorage.app/${adminReducer?.user?.userData?.profileurl}`}
                                         style={{
                                             width: '200px',
                                             height: '200px',

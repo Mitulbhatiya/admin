@@ -109,7 +109,7 @@ const RequestTable = (props) => {
                                                         value?.requestStatus === "Rejected"
                                                             ? "NULL"
                                                             : value?.profileurl
-                                                                ? <img src={`https://dzhov20ss4n5i.cloudfront.net/${value.profileurl}`} height={'70px'} width={'70px'} />
+                                                                ? <img src={`https://storage.googleapis.com/satdham-assets.firebasestorage.app/${value.profileurl}`} height={'70px'} width={'70px'} />
                                                                 : "--"
                                                     }
                                                 </td>

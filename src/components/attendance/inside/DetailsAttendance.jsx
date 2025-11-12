@@ -370,7 +370,7 @@ const DetailsAttendance = () => {
                                             {
                                                 value.profilePhotoStatus === false
                                                     ? <img src={userImg} height={'40px'} width={'40px'} style={{ borderRadius: '50%' }} />
-                                                    : <img src={`https://dzhov20ss4n5i.cloudfront.net/${value?.profileurl}`} height={'40px'} width={'40px'} style={{ borderRadius: '50%' }} />
+                                                    : <img src={`https://storage.googleapis.com/satdham-assets.firebasestorage.app/${value?.profileurl}`} height={'40px'} width={'40px'} style={{ borderRadius: '50%' }} />
                                             }
                                             &nbsp; {value?.firstname} {value?.lastname}
 
@@ -396,7 +396,7 @@ const DetailsAttendance = () => {
                                             {
                                                 value.profilePhotoStatus === false
                                                     ? <img src={userImg} height={'40px'} width={'40px'} style={{ borderRadius: '50%' }} />
-                                                    : <img src={`https://dzhov20ss4n5i.cloudfront.net/${value?.profileurl}`} height={'40px'} width={'40px'} style={{ borderRadius: '50%' }} />
+                                                    : <img src={`https://storage.googleapis.com/satdham-assets.firebasestorage.app/${value?.profileurl}`} height={'40px'} width={'40px'} style={{ borderRadius: '50%' }} />
                                             }
                                             &nbsp; {value?.firstname} {value?.lastname}
 
@@ -424,7 +424,7 @@ const DetailsAttendance = () => {
                                             {
                                                 value.profilePhotoStatus === false
                                                     ? <img src={userImg} height={'40px'} width={'40px'} style={{ borderRadius: '50%' }} />
-                                                    : <img src={`https://dzhov20ss4n5i.cloudfront.net/${value?.profileurl}`} height={'40px'} width={'40px'} style={{ borderRadius: '50%' }} />
+                                                    : <img src={`https://storage.googleapis.com/satdham-assets.firebasestorage.app/${value?.profileurl}`} height={'40px'} width={'40px'} style={{ borderRadius: '50%' }} />
                                             }
                                             &nbsp; {value?.firstname} {value?.lastname}
 
@@ -449,7 +449,7 @@ const DetailsAttendance = () => {
                                             {
                                                 value.profilePhotoStatus === false
                                                     ? <img src={userImg} height={'40px'} width={'40px'} style={{ borderRadius: '50%' }} />
-                                                    : <img src={`https://dzhov20ss4n5i.cloudfront.net/${value?.profileurl}`} height={'40px'} width={'40px'} style={{ borderRadius: '50%' }} />
+                                                    : <img src={`https://storage.googleapis.com/satdham-assets.firebasestorage.app/${value?.profileurl}`} height={'40px'} width={'40px'} style={{ borderRadius: '50%' }} />
                                             }
                                             &nbsp; {value?.firstname} {value?.lastname}
 
@@ -476,7 +476,7 @@ const DetailsAttendance = () => {
                                             {
                                                 value.profilePhotoStatus === false
                                                     ? <img src={userImg} height={'40px'} width={'40px'} style={{ borderRadius: '50%' }} />
-                                                    : <img src={`https://dzhov20ss4n5i.cloudfront.net/${value?.profileurl}`} height={'40px'} width={'40px'} style={{ borderRadius: '50%' }} />
+                                                    : <img src={`https://storage.googleapis.com/satdham-assets.firebasestorage.app/${value?.profileurl}`} height={'40px'} width={'40px'} style={{ borderRadius: '50%' }} />
                                             }
                                             &nbsp; {value?.firstname} {value?.lastname}
 
@@ -500,7 +500,7 @@ const DetailsAttendance = () => {
                                             {
                                                 value.profilePhotoStatus === false
                                                     ? <img src={userImg} height={'40px'} width={'40px'} style={{ borderRadius: '50%' }} />
-                                                    : <img src={`https://dzhov20ss4n5i.cloudfront.net/${value?.profileurl}`} height={'40px'} width={'40px'} style={{ borderRadius: '50%' }} />
+                                                    : <img src={`https://storage.googleapis.com/satdham-assets.firebasestorage.app/${value?.profileurl}`} height={'40px'} width={'40px'} style={{ borderRadius: '50%' }} />
                                             }
                                             &nbsp; {value?.firstname} {value?.lastname}
 

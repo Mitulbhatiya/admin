@@ -916,7 +916,7 @@ const AttendanceZone = () => {
                                                                         {
                                                                             d.profilePhotoStatus === false
                                                                                 ? <img src={userImg} height={'40px'} width={'40px'} style={{ borderRadius: '50%' }} />
-                                                                                : <img src={`https://dzhov20ss4n5i.cloudfront.net/${d?.profileurl}`} height={'40px'} width={'40px'} style={{ borderRadius: '50%' }} />
+                                                                                : <img src={`https://storage.googleapis.com/satdham-assets.firebasestorage.app/${d?.profileurl}`} height={'40px'} width={'40px'} style={{ borderRadius: '50%' }} />
                                                                         }
                                                                         &nbsp;{d?.firstname} {d?.lastname}
                                                                     </td>
@@ -969,7 +969,7 @@ const AttendanceZone = () => {
                                                                             {
                                                                                 d.profilePhotoStatus === false
                                                                                     ? <img src={userImg} height={'40px'} width={'40px'} style={{ borderRadius: '50%' }} />
-                                                                                    : <img src={`https://dzhov20ss4n5i.cloudfront.net/${d?.profileurl}`} height={'40px'} width={'40px'} style={{ borderRadius: '50%' }} />
+                                                                                    : <img src={`https://storage.googleapis.com/satdham-assets.firebasestorage.app/${d?.profileurl}`} height={'40px'} width={'40px'} style={{ borderRadius: '50%' }} />
                                                                             }
                                                                             &nbsp;{d?.firstname} {d?.lastname}
                                                                         </td>
@@ -1023,7 +1023,7 @@ const AttendanceZone = () => {
                                                                                 {
                                                                                     d.profilePhotoStatus === false
                                                                                         ? <img src={userImg} height={'40px'} width={'40px'} style={{ borderRadius: '50%' }} />
-                                                                                        : <img src={`https://dzhov20ss4n5i.cloudfront.net/${d?.profileurl}`} height={'40px'} width={'40px'} style={{ borderRadius: '50%' }} />
+                                                                                        : <img src={`https://storage.googleapis.com/satdham-assets.firebasestorage.app/${d?.profileurl}`} height={'40px'} width={'40px'} style={{ borderRadius: '50%' }} />
                                                                                 }
                                                                                 &nbsp;{d?.firstname} {d?.lastname}
                                                                             </td>
@@ -1076,7 +1076,7 @@ const AttendanceZone = () => {
                                                                                     {
                                                                                         d.profilePhotoStatus === false
                                                                                             ? <img src={userImg} height={'40px'} width={'40px'} style={{ borderRadius: '50%' }} />
-                                                                                            : <img src={`https://dzhov20ss4n5i.cloudfront.net/${d?.profileurl}`} height={'40px'} width={'40px'} style={{ borderRadius: '50%' }} />
+                                                                                            : <img src={`https://storage.googleapis.com/satdham-assets.firebasestorage.app/${d?.profileurl}`} height={'40px'} width={'40px'} style={{ borderRadius: '50%' }} />
                                                                                     }
                                                                                     &nbsp;{d?.firstname} {d?.lastname}
                                                                                 </td>
@@ -1129,7 +1129,7 @@ const AttendanceZone = () => {
                                                                                         {
                                                                                             d.profilePhotoStatus === false
                                                                                                 ? <img src={userImg} height={'40px'} width={'40px'} style={{ borderRadius: '50%' }} />
-                                                                                                : <img src={`https://dzhov20ss4n5i.cloudfront.net/${d?.profileurl}`} height={'40px'} width={'40px'} style={{ borderRadius: '50%' }} />
+                                                                                                : <img src={`https://storage.googleapis.com/satdham-assets.firebasestorage.app/${d?.profileurl}`} height={'40px'} width={'40px'} style={{ borderRadius: '50%' }} />
                                                                                         }
                                                                                         &nbsp;{d?.firstname} {d?.lastname}
                                                                                     </td>
@@ -1185,7 +1185,7 @@ const AttendanceZone = () => {
                                                                                             {
                                                                                                 d.profilePhotoStatus === false
                                                                                                     ? <img src={userImg} height={'40px'} width={'40px'} style={{ borderRadius: '50%' }} />
-                                                                                                    : <img src={`https://dzhov20ss4n5i.cloudfront.net/${d?.profileurl}`} height={'40px'} width={'40px'} style={{ borderRadius: '50%' }} />
+                                                                                                    : <img src={`https://storage.googleapis.com/satdham-assets.firebasestorage.app/${d?.profileurl}`} height={'40px'} width={'40px'} style={{ borderRadius: '50%' }} />
                                                                                             }
                                                                                             &nbsp;{d?.firstname} {d?.lastname}
                                                                                         </td>
@@ -1247,7 +1247,7 @@ const AttendanceZone = () => {
                                                                                                 {
                                                                                                     d.profilePhotoStatus === false
                                                                                                         ? <img src={userImg} height={'40px'} width={'40px'} style={{ borderRadius: '50%' }} />
-                                                                                                        : <img src={`https://dzhov20ss4n5i.cloudfront.net/${d?.profileurl}`} height={'40px'} width={'40px'} style={{ borderRadius: '50%' }} />
+                                                                                                        : <img src={`https://storage.googleapis.com/satdham-assets.firebasestorage.app/${d?.profileurl}`} height={'40px'} width={'40px'} style={{ borderRadius: '50%' }} />
                                                                                                 }
                                                                                                 &nbsp;{d?.firstname} {d?.lastname}
                                                                                             </td>
@@ -1309,7 +1309,7 @@ const AttendanceZone = () => {
                                                                                                     {
                                                                                                         d.profilePhotoStatus === false
                                                                                                             ? <img src={userImg} height={'40px'} width={'40px'} style={{ borderRadius: '50%' }} />
-                                                                                                            : <img src={`https://dzhov20ss4n5i.cloudfront.net/${d?.profileurl}`} height={'40px'} width={'40px'} style={{ borderRadius: '50%' }} />
+                                                                                                            : <img src={`https://storage.googleapis.com/satdham-assets.firebasestorage.app/${d?.profileurl}`} height={'40px'} width={'40px'} style={{ borderRadius: '50%' }} />
                                                                                                     }
                                                                                                     &nbsp;{d?.firstname} {d?.lastname}
                                                                                                 </td>
@@ -1370,7 +1370,7 @@ const AttendanceZone = () => {
                                                                                                     {
                                                                                                         d.profilePhotoStatus === false
                                                                                                             ? <img src={userImg} height={'40px'} width={'40px'} style={{ borderRadius: '50%' }} />
-                                                                                                            : <img src={`https://dzhov20ss4n5i.cloudfront.net/${d?.profileurl}`} height={'40px'} width={'40px'} style={{ borderRadius: '50%' }} />
+                                                                                                            : <img src={`https://storage.googleapis.com/satdham-assets.firebasestorage.app/${d?.profileurl}`} height={'40px'} width={'40px'} style={{ borderRadius: '50%' }} />
                                                                                                     }
                                                                                                     &nbsp;{d?.firstname} {d?.lastname}
                                                                                                 </td>
@@ -1431,7 +1431,7 @@ const AttendanceZone = () => {
                                                                                                     {
                                                                                                         d.profilePhotoStatus === false
                                                                                                             ? <img src={userImg} height={'40px'} width={'40px'} style={{ borderRadius: '50%' }} />
-                                                                                                            : <img src={`https://dzhov20ss4n5i.cloudfront.net/${d?.profileurl}`} height={'40px'} width={'40px'} style={{ borderRadius: '50%' }} />
+                                                                                                            : <img src={`https://storage.googleapis.com/satdham-assets.firebasestorage.app/${d?.profileurl}`} height={'40px'} width={'40px'} style={{ borderRadius: '50%' }} />
                                                                                                     }
                                                                                                     &nbsp;{d?.firstname} {d?.lastname}
                                                                                                 </td>
@@ -1492,7 +1492,7 @@ const AttendanceZone = () => {
                                                                                                     {
                                                                                                         d.profilePhotoStatus === false
                                                                                                             ? <img src={userImg} height={'40px'} width={'40px'} style={{ borderRadius: '50%' }} />
-                                                                                                            : <img src={`https://dzhov20ss4n5i.cloudfront.net/${d?.profileurl}`} height={'40px'} width={'40px'} style={{ borderRadius: '50%' }} />
+                                                                                                            : <img src={`https://storage.googleapis.com/satdham-assets.firebasestorage.app/${d?.profileurl}`} height={'40px'} width={'40px'} style={{ borderRadius: '50%' }} />
                                                                                                     }
                                                                                                     &nbsp;{d?.firstname} {d?.lastname}
                                                                                                 </td>
@@ -1553,7 +1553,7 @@ const AttendanceZone = () => {
                                                                                                     {
                                                                                                         d.profilePhotoStatus === false
                                                                                                             ? <img src={userImg} height={'40px'} width={'40px'} style={{ borderRadius: '50%' }} />
-                                                                                                            : <img src={`https://dzhov20ss4n5i.cloudfront.net/${d?.profileurl}`} height={'40px'} width={'40px'} style={{ borderRadius: '50%' }} />
+                                                                                                            : <img src={`https://storage.googleapis.com/satdham-assets.firebasestorage.app/${d?.profileurl}`} height={'40px'} width={'40px'} style={{ borderRadius: '50%' }} />
                                                                                                     }
                                                                                                     &nbsp;{d?.firstname} {d?.lastname}
                                                                                                 </td>
@@ -1614,7 +1614,7 @@ const AttendanceZone = () => {
                                                                                                     {
                                                                                                         d.profilePhotoStatus === false
                                                                                                             ? <img src={userImg} height={'40px'} width={'40px'} style={{ borderRadius: '50%' }} />
-                                                                                                            : <img src={`https://dzhov20ss4n5i.cloudfront.net/${d?.profileurl}`} height={'40px'} width={'40px'} style={{ borderRadius: '50%' }} />
+                                                                                                            : <img src={`https://storage.googleapis.com/satdham-assets.firebasestorage.app/${d?.profileurl}`} height={'40px'} width={'40px'} style={{ borderRadius: '50%' }} />
                                                                                                     }
                                                                                                     &nbsp;{d?.firstname} {d?.lastname}
                                                                                                 </td>
@@ -1676,7 +1676,7 @@ const AttendanceZone = () => {
                                                                                                     {
                                                                                                         d.profilePhotoStatus === false
                                                                                                             ? <img src={userImg} height={'40px'} width={'40px'} style={{ borderRadius: '50%' }} />
-                                                                                                            : <img src={`https://dzhov20ss4n5i.cloudfront.net/${d?.profileurl}`} height={'40px'} width={'40px'} style={{ borderRadius: '50%' }} />
+                                                                                                            : <img src={`https://storage.googleapis.com/satdham-assets.firebasestorage.app/${d?.profileurl}`} height={'40px'} width={'40px'} style={{ borderRadius: '50%' }} />
                                                                                                     }
                                                                                                     &nbsp;{d?.firstname} {d?.lastname}
                                                                                                 </td>

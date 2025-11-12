@@ -318,7 +318,7 @@ const UserDetails = () => {
                                                         />
                                                         : <img
                                                             className='img-fluid'
-                                                            src={`https://dzhov20ss4n5i.cloudfront.net/${adminReducer?.user?.userData?.profileurl}`}
+                                                            src={`https://storage.googleapis.com/satdham-assets.firebasestorage.app/${adminReducer?.user?.userData?.profileurl}`}
                                                             style={{
                                                                 width: '200px',
                                                                 height: '200px',
@@ -520,7 +520,7 @@ const UserDetails = () => {
                                                                 value?.requestStatus === "Rejected"
                                                                     ? "NULL"
                                                                     : value?.profileurl
-                                                                        ? <img src={`https://dzhov20ss4n5i.cloudfront.net/${value.profileurl}`} height={'70px'} width={'70px'} />
+                                                                        ? <img src={`https://storage.googleapis.com/satdham-assets.firebasestorage.app/${value.profileurl}`} height={'70px'} width={'70px'} />
                                                                         : "--"
                                                             }
                                                         </td>
